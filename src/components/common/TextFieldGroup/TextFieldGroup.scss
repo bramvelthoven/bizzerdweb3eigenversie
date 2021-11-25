@@ -1,0 +1,20 @@
+.input-field {
+    margin-bottom: .5em;
+}
+.input-field__label {
+    font-weight: 600;
+    font-size: 1em;
+    
+}
+.input-field__input{
+    margin-top: .25em;
+    font-size: 1em;
+
+}
+.highlightable {
+    transition: font-size 0.3s ease-in-out;
+    font-size: .6em;
+    &:focus {
+        font-size: 1em;
+    }
+}

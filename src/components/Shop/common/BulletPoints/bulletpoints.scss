@@ -1,0 +1,25 @@
+
+.bulletpointItems{
+  margin-left: 5vw;
+  margin-right: 10vw;
+  padding-bottom: 0em;
+  margin-top: -0.6em;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.bulletPoint {
+  flex: 0 0 33.3333%;
+  width: 100%;
+}
+.bulletPointIcon {
+  display: inline-block;
+  position: relative;
+  top: 1.7em;
+  right: -1em;
+  width: 5em;
+}
+.bulletPointText {
+  display: inline-block;
+  font-size: 1.6em;
+}

@@ -1,0 +1,57 @@
+.paymentPlan {
+  background-color: #F2F2F2;
+  width:26vw;
+  align-content: center;
+  position:relative;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  height: 80vh;
+  .name {
+    font-family: 'NeoTech', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 3vh;
+    margin-top: 5vh;
+    font-size: 1.3em;
+  }
+  .line {
+    border-bottom: 3px dashed #faa634;
+    width: 16vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .price {
+    font-size: 3.2em;
+    color: #faa634;
+    font-family: 'NeoTech', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 0;
+  }
+  .perUser {
+    font-size: 1.5em;
+    margin-bottom: 5vh;
+    margin-top: 0;
+  }
+  .featureList {
+    font-size: 1.4em;
+    height: 40vh;
+    p {
+      margin: 0.2em;
+    }
+  }
+  .bigBoldText {
+    font-size: 1.4em;
+    margin-bottom: 1.4em;
+    font-family: 'NeoTech', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  .transparent {
+    color: transparent;
+  }
+  .yearly {
+    margin-bottom: 15vh;
+    font-size: 1.4em;
+  }
+  .planButton {
+    position: relative;
+    color: #F7F7F7;
+    background-color: #F7A823;
+    bottom: 6vh;
+  }
+
+}

@@ -1,0 +1,64 @@
+.detail {
+  display: flex;
+  margin-left: 10vw;
+  margin-right: 8vw;
+  .preview {
+    width:55vw;
+    margin-right: 2vw;
+    .previewCard {
+      max-height: 100%;
+      width: auto;
+      max-width: 100%;
+    }
+  }
+  .action {
+    width: 45vw;
+    .textbox {
+      .title {
+        font-size: 2em;
+      }
+      .primaryColor {
+        color: #faa634;
+      }
+      .priceTag {
+        font-size: 1.4em;
+        margin-bottom: 2vh;
+      }
+    }
+    .priceInformation {
+      border: 3px dashed #faa634;
+      padding: 1.5em;
+      p {
+        font-size: 1.4em;
+        margin-top: 0;
+        margin-bottom: .5em;
+      }
+      table {
+        th {
+          text-align: left;
+          font-size: 1.2em;
+        }
+        td{
+          width: 10vw;
+          font-size: 1.2em;
+        }
+      }
+    }
+}
+}
+.productSEO{
+  text-align: left;
+  margin-left: 10vw;
+  width:45vw;
+  h4 {
+    font-size: 1.6em;
+    font-family: 'NeoTech', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  span {
+    font-size: 2em;
+  }
+  p {
+    font-size: 1.6em;
+  }
+
+}

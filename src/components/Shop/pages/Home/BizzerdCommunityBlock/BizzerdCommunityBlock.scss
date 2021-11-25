@@ -1,0 +1,51 @@
+
+.row {
+  display: flex;
+  margin: 5vh 10vw 10vh 10vw;
+}
+.block-2-community {
+  text-align: left;
+  padding-left: 2vw;
+  background-color: #F2F2F2;
+  width: 50vw;
+  height: 45vh;
+  padding-top: 1vh;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  h4 {
+    font-size: 1.9em;
+    font-family: 'NeoTech', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  p {
+    font-size: 1.6em;
+    display:inline-block;
+    height:auto;
+  }
+  .text-block-community {
+    width:80%;
+    height:auto;
+
+  }
+}
+.block-1-community {
+  background-color: #F2F2F2;
+  width: 27.5vw;
+  height: 45vh;
+  margin-left: 5vw;
+  text-align: center;
+  padding-top: 1vh;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  h4 {
+    font-size: 1.9em;
+    font-family: 'NeoTech', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+  p {
+    font-size: 1.6em;
+    display:inline-block;
+    height:auto;
+  }
+}
+
+.youtubeVideo {
+  width: 80%;
+  height: 85%;
+}

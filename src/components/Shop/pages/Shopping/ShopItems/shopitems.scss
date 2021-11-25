@@ -1,0 +1,23 @@
+.shopItemsContainer {
+    display: grid;
+    grid-template-columns: minmax(32%, auto)  minmax(32%, auto)  minmax(32%, auto);
+    gap: 1%;
+    height: 100%;
+}
+
+.titleBar {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: orange;
+    text-align: center;
+    h1 {
+        color: white;
+    }
+}
+
+.resultsCounter {
+    color: #D0D0D1;
+}
+.resultsRow {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,22 @@
+.slideShow {
+  display: flex;
+  flex-direction: column;
+  .imageContainer {
+    height: 65vh;
+  }
+  .stepContainer {
+    display: flex;
+    justify-content: center;
+    .step {
+      width:1.5em;
+      height: 1.5em;
+      border: 3px solid #faa634;
+      border-radius: 50%;
+      margin: .2em;
+    }
+    .active {
+      background-color: #faa634;
+    }
+  }
+
+}

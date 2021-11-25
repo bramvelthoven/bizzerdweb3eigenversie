@@ -1,0 +1,42 @@
+.toolbarContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+.logoSection {
+  margin-left: 7vw;
+  max-width: 15vw;
+}
+.logo {
+  max-width: 100%;
+}
+.searchbarSection {
+  margin-right: auto;
+  margin-left: 5%;
+}
+.rightSection {
+  margin-left: auto;
+  margin-right: 5%;
+  display: flex;
+  padding-top: 2vh;
+  .toolbarItem {
+    padding: 1vh 1vw 1vh 1vw;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 1.3em;
+    .toolbarIcon {
+      position: relative;
+      top: 2px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      margin-right: 5px;
+      font-size: 1em;
+
+
+    }
+  }
+
+}

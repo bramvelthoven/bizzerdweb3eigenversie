@@ -1,0 +1,56 @@
+.row-actionButton {
+  display: flex;
+  margin-left: 5vw;
+  margin-right: 10vw;
+  margin-top: 10vh;
+}
+.actionButton-3 {
+  background-color: #F2F2F2;
+  width:30vw;
+  height: 45vh;
+  margin-left: 5vw;
+  text-align: center;
+  padding-top: 4vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+  font-family: 'NeoTech', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3em;
+  }
+}
+.bigIconContainer {
+
+  .icon {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vh;
+  }
+  .eyeIcon {
+    width: 80%;
+  }
+  .uploadIcon {
+    margin-top: -2vh;
+    width: 80%;
+  }
+  .LetUsDesign {
+    width: 80%;
+  }
+}
+.videoFrame {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 100%;
+
+  .video {
+    width: 90%;
+    height:70%;
+
+  }
+}

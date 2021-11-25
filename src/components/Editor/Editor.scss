@@ -1,0 +1,23 @@
+.EditorContainer {
+    display: flex;
+    padding:  5px;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+
+    .editorFormContainer {
+        position: absolute;
+        width:  25%;
+        background-color: #ffffff;
+        border-radius: 8px;
+        height: 95vh;
+        top: 2.5%;
+        left: 5%;
+    }
+   .cardContainer {
+       position: relative;
+       margin-left: auto;
+       margin-right: auto;
+   }
+}
